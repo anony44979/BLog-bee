@@ -1,0 +1,5 @@
+1) See node knows all ejs files are in views folder....so specifying /views is not necessary in the render statement.
+   But inside the views folder if other folders are present then u have to give ./partials/header.
+   ./ means in the current directory that u are in i.e views , go to partials folder and then render header
+
+ 2) Use <%- include ("./partials/header") %> this syntax for including.
