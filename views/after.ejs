@@ -1,0 +1,10 @@
+<%- include ("./partials/header") %>
+
+<h1>logged in </h1>
+<form action="/logout" method="POST"> 
+<button id = "btnLogout"> Logout </button>
+<h3><%= firebaseUser.email %></h3>
+</form>
+
+
+<%- include ("./partials/footer") %>
